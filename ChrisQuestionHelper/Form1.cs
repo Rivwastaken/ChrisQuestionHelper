@@ -19,6 +19,12 @@ namespace ChrisQuestionHelper
             PopulateComboBoxes();
             LoadQuestions(); // Initial load of questions
 
+            // Check if there are no questions loaded
+            if (!questions.Any())
+            {
+                MessageBox.Show("There are currently no questions available. Please use the 'Edit Questions' button to add some!");
+            }
+
             // Set background image and layout
             string resourceName = "ChrisQuestionHelper.Background.png";
             Stream backgroundImageStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName);
@@ -202,6 +208,12 @@ namespace ChrisQuestionHelper
         private void button1_Click(object sender, EventArgs e)
         {
             LoadQuestions(); // Reload questions from embedded resource
+
+            if (!questions.Any())
+            {
+                MessageBox.Show("There are currently no questions available. Please use the 'Edit Questions' button to add some!");
+                return;
+            }
 
             string selectedSubject = Subject.SelectedItem?.ToString();
             string selectedYearLevel = YearLevel.SelectedItem?.ToString();
