@@ -19,7 +19,6 @@ A simple C# application created for a teacher to generate exam questions randoml
 1. **Clone** this repository:
    ```bash
    git clone https://github.com/Rivwastaken/ChrisQuestionHelper.git
-   cd ChrisQuestionHelper
 
 ## Questions.txt Format
 ```
