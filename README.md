@@ -7,7 +7,7 @@ A simple C# application created for a teacher to generate exam questions randoml
 - Reads questions from a CSV file (`questions.txt`).
 - Randomly selects a specified number of questions.
 - Supports filtering by subject and/or year level (edit the CSV or add CLI options).
-- Outputs the selection to the console and (optionally) to a file.
+- Outputs the selection to the GUI.
 
 ## Prerequisites
 
