@@ -1,6 +1,6 @@
 # ChrisQuestionHelper
 
-A simple C# application created for a teacher to generate exam questions randomly. :contentReference[oaicite:0]{index=0}
+A simple C# application created for a teacher to generate exam questions randomly.
 
 ## Features
 
