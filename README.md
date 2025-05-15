@@ -23,7 +23,7 @@ A simple C# application created for a teacher to generate exam questions randoml
 
 ## Questions.txt Format
 
-Subject,YearLevel,Question
-Geometry,8,What is the area of a triangle?
-Geometry,9,Prove that the sum of angles in a triangle is 180 degrees.
-Trigonometry,10,What is the sine of 30 degrees?
+   Subject,YearLevel,Question
+   Geometry,8,What is the area of a triangle?
+   Geometry,9,Prove that the sum of angles in a triangle is 180 degrees.
+   Trigonometry,10,What is the sine of 30 degrees?
